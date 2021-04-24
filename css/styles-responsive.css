@@ -1,0 +1,152 @@
+@media (max-width: 1296px) {
+    #home.container {
+        border-color: blue;
+        min-height: 170vh;
+    }
+    .info-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .info-text {
+        width: 100% !important;
+    }
+    .info-img {
+        width: 60% !important;
+        /* width: 50%%; */
+    }
+
+
+}
+
+
+@media (max-width: 1045px) {
+    .container {
+        height: auto;
+    }
+    
+    /* ------------------------- */
+    /* Content */
+    /* ------------------------- */
+
+    .cards-container, .panel {
+        display: flex;
+        flex-direction: column;
+    }
+    .card, .card-glide {
+        padding-bottom: 35px;
+    }
+
+    .card-glide ul {
+        bottom: 50px;
+    }
+
+    /*new*/
+    #home.container {
+        height: 100vh !important;
+    }
+}
+
+@media (max-width: 840px) {    
+
+    /* ------------------------- */
+    /* Navigation */
+    /* ------------------------- */
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+    }
+
+    #nav-items {
+        position: absolute;
+        margin-top: 50px;
+        padding-bottom: 100vh;
+        background-color: #8B57B2;
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        line-height: 50pt;
+        font-size: 20pt;
+        opacity: 80%;
+        transform: translateX(-800px);
+        transition: all 0.8s;
+    }
+    #nav-items a {
+        font-size: 19pt;
+        margin-bottom: 10px;
+        margin-top: 20px;
+        border-bottom: 1px solid white;
+    }
+    #nav-items.show {
+        transform: translateX(0px);
+    }
+
+    .toggle {
+        position: absolute;
+        top: 10px;
+        left: 20px;
+        cursor: pointer;
+    }
+    .toggle line {
+        stroke: white;
+        stroke-linecap: round;
+        stroke-width: 4;
+    }
+
+    /* ------------------------- */
+    /* Banner */
+    /* ------------------------- */
+
+    #banner h1 {
+        font-size: 30pt;
+    }
+    #banner h2 {
+        font-size: 15pt;
+    }
+
+    /* ------------------------- */
+    /* Content */
+    /* ------------------------- */
+    .card p, .card h3 {
+        color: white;
+        visibility: visible;
+    }
+    .card img {
+        filter: brightness(40%);
+    }
+
+    .card-glide h3 {
+        visibility: visible;
+        transform: translateY(-50px);
+    }
+    .card-glide ul {
+        visibility: visible;
+    }
+    .card-glide img {
+        filter: brightness(40%);
+    }
+
+    .panel .card-normal h3{
+        width: 200px;
+        font-size: 20pt;
+    }
+
+    /* ------------------------- */
+    /* footer*/
+    /* ------------------------- */
+
+    #footer-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 640px) {
+    .info-img {
+        width: 100% !important;
+    }
+}

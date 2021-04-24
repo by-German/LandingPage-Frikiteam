@@ -1,0 +1,99 @@
+/* ----------------------------------------------------------------- */
+/* home Styles */
+/* ----------------------------------------------------------------- */
+
+.info-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 100%;
+}
+
+.info-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 40%;
+}
+.info-text p {
+    line-height: 1.5;
+    text-align: center;
+    font-size: 25px;
+    user-select: none;
+}
+
+.info-img {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    animation: loop 3s infinite ease-in-out;
+
+}
+.info-img img {
+    width: 100%;
+
+}
+
+
+
+
+/* ----------------------------------------------------------------- */
+/* Features Styles */
+/* ----------------------------------------------------------------- */
+
+.title-location{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url("../img/features/feature-location.jpg");
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 10px;
+    margin-top: 80px;
+
+    width: 90%;
+    height: 40%;
+    border-radius: 20px;
+    /* transition: all 1s; */
+
+}
+.title-location h2 {
+    text-align: center;
+    color: white;
+    text-shadow: 0px 5px 10px rgba(0, 0, 0, 0.479);
+    
+    font-size: 50px;
+    transition: all 1s;
+}
+
+
+.features-container {
+    margin: auto;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* ----------------------------------------------------------------- */
+/* organizers Styles */
+/* ----------------------------------------------------------------- */
+
+#organizers.container {
+    height: 100%;
+    margin-bottom: 8%;
+    text-align: center;
+}
+#organizers.container .info-container .info-text h2 {
+    margin: auto;
+    padding-bottom: 10px;
+    border-bottom: 2px solid black;
+    font-size: 30px;
+}
+#organizers.container .info-container .info-text button {
+    margin: auto;
+}

@@ -1,0 +1,20 @@
+/* --------------------- */
+/* crollbar properties */
+/* --------------------- */
+
+html::-webkit-scrollbar {
+    width: 6px;
+    background-color: #454545;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #131212;
+}
+/* --------------------- */
+/* mode dark */
+/* --------------------- */
+
+.dark-mode { /*include in tag 'html'*/
+    background-color: #252525;
+    color: white;
+}
