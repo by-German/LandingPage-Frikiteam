@@ -5,3 +5,4 @@
 - Klaus Matthew Mollan Neyra 
 - Daniel Santillán Ávila
 - Rodrigo Calle Galdos
+- Aldair Cuarez Baldeon
