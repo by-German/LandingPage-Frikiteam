@@ -131,7 +131,7 @@ ul, a {
 .card img {
     width: 300px;
     position: relative;
-    
+
 }
 .card p {
     line-height: 1.5;
@@ -241,6 +241,27 @@ ul, a {
     font-size: 20pt;
     text-align: center;
 }
+
+.about-the-product, .about-the-team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+}
+.about-the-product h2 {
+  font-size: 34px;
+}
+iframe {
+  width: 800px;
+  height: 400px;
+}
+@media (max-width: 760px) {
+  iframe {
+    max-width: 500px;
+  }
+}
+
 
 /* ----------------------------------------------------------------- */
 /* Creators Styles */
